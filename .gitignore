@@ -18,8 +18,7 @@ node_modules/
 ## --- Archivos de Configuración (SEGURIDAD) ---
 appsettings.json
 appsettings.Development.json
-# Si usas secretos de usuario, .NET los guarda fuera de esta carpeta, 
-# así que no hace falta ignorar secretos.json aquí.
+
 
 ## --- Otros ---
 *.log
