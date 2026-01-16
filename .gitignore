@@ -1,0 +1,26 @@
+## --- Visual Studio & .NET ---
+[Bb]in/
+[Oo]bj/
+Visual Studio 2017/
+.vs/
+TestResults/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## --- Publicación y Paquetes ---
+publish/
+*.pfx
+*.publishsettings
+node_modules/
+
+## --- Archivos de Configuración (SEGURIDAD) ---
+appsettings.json
+appsettings.Development.json
+# Si usas secretos de usuario, .NET los guarda fuera de esta carpeta, 
+# así que no hace falta ignorar secretos.json aquí.
+
+## --- Otros ---
+*.log
+.DS_Store
